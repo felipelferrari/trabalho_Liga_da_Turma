@@ -7,7 +7,7 @@
 
         if (listaEquipes.Count < 2)
         {
-            Console.WriteLine("⚠️ Você precisa de pelo menos 2 equipes cadastradas para registrar um jogo.");
+            Console.WriteLine(" Você precisa de pelo menos 2 equipes cadastradas para registrar um jogo.");
             Pausar();
             return;
         }
@@ -42,7 +42,7 @@
             listaPartidas.Add(jogoFutsal);
             contadorId++;
 
-            Console.WriteLine("\n✅ Partida de Futsal registrada com sucesso!");
+            Console.WriteLine("\n Partida de Futsal registrada com sucesso!");
         }
         else if (tipo == "2")
         {
@@ -58,7 +58,6 @@
                 Console.Write("Mapas vencidos pelo " + timeB.Nome + ": ");
                 mapasB = int.Parse(Console.ReadLine()!);
 
-                // Validação da MD3
                 if ((mapasA == 2 && mapasB == 0) || (mapasA == 2 && mapasB == 1) ||
                     (mapasA == 0 && mapasB == 2) || (mapasA == 1 && mapasB == 2))
                 {
@@ -66,7 +65,7 @@
                 }
                 else
                 {
-                    Console.WriteLine("\n⚠️ Placar inválido para MD3! Aceito apenas: 2x0, 2x1, 0x2 ou 1x2. Tente de novo.\n");
+                    Console.WriteLine("\n Placar inválido para MD3! Aceito apenas: 2x0, 2x1, 0x2 ou 1x2. Tente de novo.\n");
                 }
             }
 
@@ -74,7 +73,7 @@
             listaPartidas.Add(jogoESports);
             contadorId++;
 
-            Console.WriteLine("\n✅ Partida de eSports registrada com sucesso!");
+            Console.WriteLine("\n Partida de eSports registrada com sucesso!");
         }
 
         Pausar();

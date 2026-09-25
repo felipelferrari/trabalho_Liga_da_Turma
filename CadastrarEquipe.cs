@@ -13,11 +13,11 @@ static void CadastrarEquipe()
         {
             Equipe novaEquipe = new Equipe(nome);
             listaEquipes.Add(novaEquipe);
-            Console.WriteLine("\n✅ Equipe '" + nome + "' cadastrada com sucesso!");
+            Console.WriteLine("\n Equipe '" + nome + "' cadastrada com sucesso!");
         }
         else
         {
-            Console.WriteLine("\n⚠️ O nome não pode ser vazio!");
+            Console.WriteLine("\n O nome não pode ser vazio!");
         }
 
         Pausar();

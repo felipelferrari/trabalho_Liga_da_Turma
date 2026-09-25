@@ -57,7 +57,7 @@ partial class Program
             }
             else
             {
-                Console.WriteLine("\n⚠️ Opção inválida!");
+                Console.WriteLine("\n Opção inválida!");
                 Pausar();
             }
         }

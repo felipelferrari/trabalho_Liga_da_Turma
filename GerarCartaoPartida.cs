@@ -7,7 +7,7 @@ partial class Program
 
         if (listaPartidas.Count == 0)
         {
-            Console.WriteLine("⚠️ Nenhuma partida cadastrada.");
+            Console.WriteLine(" Nenhuma partida cadastrada.");
             Pausar();
             return;
         }
@@ -28,7 +28,7 @@ partial class Program
 
         if (achou == false)
         {
-            Console.WriteLine("⚠️ Partida não encontrada!");
+            Console.WriteLine(" Partida não encontrada!");
         }
 
         Pausar();
